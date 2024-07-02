@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "505050451346",
+    "project_id": "login-proyecto-cloud",
+    "storage_bucket": "login-proyecto-cloud.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:505050451346:android:931b4d77e0242e7e3bc54b",
+        "android_client_info": {
+          "package_name": "com.angeles.login"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqMmC4QCukxK8j1z06b2NTX9wCYBZ_wPI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

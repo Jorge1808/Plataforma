@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient"
+    tools:context=".LoginActivity">
+
+
+    <LinearLayout
+        android:id="@+id/login_form"
+        android:layout_width="300dp"
+        android:layout_height="550dp"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:background="@drawable/login_form_background"
+        android:gravity="center"
+        android:alpha="0.7">
+
+        <ImageView
+            android:id="@+id/profile_icon"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/persona" />
+
+        <EditText
+            android:id="@+id/emailTxt"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Correo"
+            android:inputType="textEmailAddress"
+
+            android:drawablePadding="10dp"
+            android:background="@drawable/edit_text_background"
+            android:padding="10dp"
+            android:layout_marginBottom="10dp"/>
+
+        <EditText
+            android:id="@+id/passwordTxt"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="contraseña"
+            android:inputType="textPassword"
+
+            android:drawablePadding="10dp"
+            android:background="@drawable/edit_text_background"
+            android:padding="10dp"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:id="@+id/RecuperarPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="¿Olvidaste tu contraseña?"
+            android:textColor="#BBDFF6" />
+
+
+        <Button
+
+            android:id="@+id/ingresarButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alpha="0.8"
+            android:background="@drawable/login_button_background"
+            android:text="INGRESAR"
+            android:textColor="@android:color/white" />
+
+        <Button
+
+            android:id="@+id/registrarButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Registrarse"
+            android:alpha="0.8"
+            android:layout_marginTop="7dp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/login_button_background"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+
+            <ImageButton
+                android:id="@+id/faceButton"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/face"
+                android:background="@drawable/round_button_border"
+                android:contentDescription="@string/app_name"
+                />
+
+            <ImageButton
+                android:id="@+id/gmailButton"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:padding="3dp"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/round_button_border"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/gmail"
+                android:contentDescription="@string/app_name"
+                />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
